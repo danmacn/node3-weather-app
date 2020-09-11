@@ -30,7 +30,7 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About',
+        title: 'About Me',
         name: 'Daniel Mac'
     });
 });
@@ -38,7 +38,8 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        body: 'Lorem ipsum dolor sit amet.'
+        body: 'Lorem ipsum dolor sit amet.',
+        name: 'Daniel Mac'
     });
 });
 
