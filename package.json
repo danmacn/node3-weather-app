@@ -1,13 +1,14 @@
 {
-  "name": "web-server",
+  "name": "weather-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Daniel Andres Mac",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
